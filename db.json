@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "email": "ms@gmail.com",
+      "password": "new"
+    },
+    {
+      "name": "mehul sharma",
+      "email": "ms@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "Khushi sharma",
+      "email": "ms9057383404@gmail.com",
+      "password": "456",
+      "id": 3
+    },
+    {
+      "name": "mehul",
+      "email": "ms9057383404@gmail.com",
+      "password": "k23",
+      "id": 4
+    },
+    {
+      "name": "mehul",
+      "email": "ms9057383404@gmail.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "mehul sharma",
+      "email": "ms9057383404@gmail.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "name": "mehul sharma",
+      "email": "ms9057383404@gmail.com",
+      "password": "123",
+      "id": 7
+    },
+    {
+      "name": "mehul sharma",
+      "email": "ms9057383404@gmail.com",
+      "password": "2",
+      "id": 8
+    },
+    {
+      "name": "mehul sharma",
+      "email": "ms90573834040@gmail.com",
+      "password": "12",
+      "id": 9
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+    {
+      "id": 0,
+      "email": "ms@gmail.com"
+    }
+  ]
+}

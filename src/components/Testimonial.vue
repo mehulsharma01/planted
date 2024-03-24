@@ -1,6 +1,6 @@
 <template>
       <div class="container-fluid testimonial-container rightleft">
-        <h3 class="secondary-font pb-5">{{testHeading}}</h3>
+        <h3 class="secondary-font pb-5">{{userdata}}</h3>
         <div id="testimonial-slick" ref="slider">
             <div v-for="items in sliderCon" :key="items">
                 <div class="test-slick-con">
@@ -78,6 +78,11 @@ export default{
             });
 
       // });
+  },
+  computed:{
+    userdata(){
+        return this.$store.state.user;
+    }
   }
 }
 </script>

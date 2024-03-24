@@ -6,7 +6,7 @@
                 <div class="box-shadow login-container">
                     <form @submit.prevent="LoginForm" ref="loginform">
                     <div class="form-group">
-                        <label for="email">Email Address:</label>
+                        <label for="email">Email Address:  {{ user }}</label>
                         <input type="email" id="email" name="email" v-model="loginObj.email" required class="input-el">
                     </div>
                     <div class="form-group position-relative">
@@ -83,7 +83,8 @@ export default{
             document.getElementsByClassName("header-container")[0].classList.add('d-none');
             //this.showHeader = false;
         }
-    }
+    },
+
 }
 
 </script>

@@ -110,7 +110,7 @@ import PlatformTabs from './PlatformTabs.vue';
 import SustainabilityComp from './Sustainability.vue';
 import TestimonialComp from './Testimonial.vue';
 import footerComp from './footer.vue';
-
+//import { useRoute }  from 'vue-router';
 import axios from 'axios';
 
 export default {
@@ -203,6 +203,12 @@ export default {
           }
     },
   },
+
+
+  mounted(){
+    document.getElementsByClassName("header-container")[0].classList.remove('d-none');
+
+  }
 
 }
 
